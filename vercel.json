@@ -1,0 +1,7 @@
+{
+  "framework": "nextjs",
+  "crons": [
+    { "path": "/api/cron/dispatch", "schedule": "* * * * *" },
+    { "path": "/api/cron/retention", "schedule": "0 3 * * *" }
+  ]
+}
